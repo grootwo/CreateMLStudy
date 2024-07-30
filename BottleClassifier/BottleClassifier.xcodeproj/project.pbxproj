@@ -11,6 +11,7 @@
 		1B845C7B2C586F18001A7627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B845C7A2C586F18001A7627 /* ContentView.swift */; };
 		1B845C7D2C586F19001A7627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B845C7C2C586F19001A7627 /* Assets.xcassets */; };
 		1B845C802C586F19001A7627 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B845C7F2C586F19001A7627 /* Preview Assets.xcassets */; };
+		1B845C882C5882AE001A7627 /* BottleClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1B845C872C5882AE001A7627 /* BottleClassifier 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1B845C7A2C586F18001A7627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B845C7C2C586F19001A7627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B845C7F2C586F19001A7627 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B845C872C5882AE001A7627 /* BottleClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "BottleClassifier 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		1B845C6C2C586F18001A7627 = {
 			isa = PBXGroup;
 			children = (
+				1B845C862C58829D001A7627 /* Model */,
 				1B845C772C586F18001A7627 /* BottleClassifier */,
 				1B845C762C586F18001A7627 /* Products */,
 			);
@@ -65,6 +68,14 @@
 				1B845C7F2C586F19001A7627 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B845C862C58829D001A7627 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B845C872C5882AE001A7627 /* BottleClassifier 1.mlmodel */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				1B845C7B2C586F18001A7627 /* ContentView.swift in Sources */,
 				1B845C792C586F18001A7627 /* BottleClassifierApp.swift in Sources */,
+				1B845C882C5882AE001A7627 /* BottleClassifier 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
