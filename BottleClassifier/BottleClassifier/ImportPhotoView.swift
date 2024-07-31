@@ -36,7 +36,9 @@ struct ImportPhotoView: View {
                 Text("bottle: \(probability["bottle"] ?? -1)")
                 Text("not bottle: \(probability["not bottle"] ?? -1)")
             }
-            Spacer()
+        }
+        .padding()
+        .toolbar {
             Button("Bottle or not") {
                 Task {
                     await recognizeBottle()
@@ -44,7 +46,6 @@ struct ImportPhotoView: View {
             }
             .disabled(selectedImage == nil)
         }
-        .padding()
     }
     func recognizeBottle() async {
         do {
