@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B593D2E2C59D1B20080F993 /* ContentView-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B593D2D2C59D1B20080F993 /* ContentView-extension.swift */; };
 		1B845C792C586F18001A7627 /* BottleClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B845C782C586F18001A7627 /* BottleClassifierApp.swift */; };
 		1B845C7B2C586F18001A7627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B845C7A2C586F18001A7627 /* ContentView.swift */; };
 		1B845C7D2C586F19001A7627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B845C7C2C586F19001A7627 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B593D2D2C59D1B20080F993 /* ContentView-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-extension.swift"; sourceTree = "<group>"; };
 		1B845C752C586F18001A7627 /* BottleClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottleClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B845C782C586F18001A7627 /* BottleClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleClassifierApp.swift; sourceTree = "<group>"; };
 		1B845C7A2C586F18001A7627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				1B845C782C586F18001A7627 /* BottleClassifierApp.swift */,
 				1B845C7A2C586F18001A7627 /* ContentView.swift */,
+				1B593D2D2C59D1B20080F993 /* ContentView-extension.swift */,
 				1B845C7C2C586F19001A7627 /* Assets.xcassets */,
 				1B845C7E2C586F19001A7627 /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			files = (
 				1B845C7B2C586F18001A7627 /* ContentView.swift in Sources */,
 				1B845C792C586F18001A7627 /* BottleClassifierApp.swift in Sources */,
+				1B593D2E2C59D1B20080F993 /* ContentView-extension.swift in Sources */,
 				1B845C882C5882AE001A7627 /* BottleClassifier1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
