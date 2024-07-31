@@ -9,7 +9,7 @@ import Foundation
 import CoreML
 import PhotosUI
 
-extension ContentView {
+extension ImportPhotoView {
     func pixelBufferFromImage(image: UIImage) -> CVPixelBuffer {
             let ciimage = CIImage(image: image)
             //let cgimage = convertCIImageToCGImage(inputImage: ciimage!)
@@ -51,11 +51,9 @@ extension ContentView {
             context?.concatenate(CGAffineTransform(rotationAngle: 0))
             context?.concatenate(__CGAffineTransformMake( 1, 0, 0, -1, 0, CGFloat(height) )) //Flip Vertical
     //        context?.concatenate(__CGAffineTransformMake( -1.0, 0.0, 0.0, 1.0, CGFloat(width), 0.0)) //Flip Horizontal
-            
 
             context?.draw(cgimage!, in: CGRect(x:0, y:0, width:CGFloat(width), height:CGFloat(height)));
             status = CVPixelBufferUnlockBaseAddress(pxbuffer!, CVPixelBufferLockFlags(rawValue: 0));
             return pxbuffer!;
-            
         }
 }

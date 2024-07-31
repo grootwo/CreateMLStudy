@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B593D2E2C59D1B20080F993 /* ContentView-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B593D2D2C59D1B20080F993 /* ContentView-extension.swift */; };
+		1B593D2E2C59D1B20080F993 /* ImportPhotoView-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B593D2D2C59D1B20080F993 /* ImportPhotoView-extension.swift */; };
 		1B845C792C586F18001A7627 /* BottleClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B845C782C586F18001A7627 /* BottleClassifierApp.swift */; };
 		1B845C7B2C586F18001A7627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B845C7A2C586F18001A7627 /* ContentView.swift */; };
 		1B845C7D2C586F19001A7627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B845C7C2C586F19001A7627 /* Assets.xcassets */; };
 		1B845C802C586F19001A7627 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B845C7F2C586F19001A7627 /* Preview Assets.xcassets */; };
 		1B845C882C5882AE001A7627 /* BottleClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1B845C872C5882AE001A7627 /* BottleClassifier1.mlmodel */; };
+		1BDB2B152C5A69A300B70994 /* ImportPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB2B142C5A69A300B70994 /* ImportPhotoView.swift */; };
+		1BDB2B172C5A6D8100B70994 /* ShootPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB2B162C5A6D8100B70994 /* ShootPhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B593D2D2C59D1B20080F993 /* ContentView-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-extension.swift"; sourceTree = "<group>"; };
+		1B593D2D2C59D1B20080F993 /* ImportPhotoView-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportPhotoView-extension.swift"; sourceTree = "<group>"; };
 		1B845C752C586F18001A7627 /* BottleClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottleClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B845C782C586F18001A7627 /* BottleClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleClassifierApp.swift; sourceTree = "<group>"; };
 		1B845C7A2C586F18001A7627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B845C7C2C586F19001A7627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B845C7F2C586F19001A7627 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B845C872C5882AE001A7627 /* BottleClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BottleClassifier1.mlmodel; sourceTree = "<group>"; };
+		1BDB2B142C5A69A300B70994 /* ImportPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportPhotoView.swift; sourceTree = "<group>"; };
+		1BDB2B162C5A6D8100B70994 /* ShootPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootPhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		1B845C772C586F18001A7627 /* BottleClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				1BDB2B142C5A69A300B70994 /* ImportPhotoView.swift */,
 				1B845C782C586F18001A7627 /* BottleClassifierApp.swift */,
 				1B845C7A2C586F18001A7627 /* ContentView.swift */,
-				1B593D2D2C59D1B20080F993 /* ContentView-extension.swift */,
+				1B593D2D2C59D1B20080F993 /* ImportPhotoView-extension.swift */,
+				1BDB2B162C5A6D8100B70994 /* ShootPhotoView.swift */,
 				1B845C7C2C586F19001A7627 /* Assets.xcassets */,
 				1B845C7E2C586F19001A7627 /* Preview Content */,
 			);
@@ -153,8 +159,10 @@
 			files = (
 				1B845C7B2C586F18001A7627 /* ContentView.swift in Sources */,
 				1B845C792C586F18001A7627 /* BottleClassifierApp.swift in Sources */,
-				1B593D2E2C59D1B20080F993 /* ContentView-extension.swift in Sources */,
+				1BDB2B152C5A69A300B70994 /* ImportPhotoView.swift in Sources */,
+				1B593D2E2C59D1B20080F993 /* ImportPhotoView-extension.swift in Sources */,
 				1B845C882C5882AE001A7627 /* BottleClassifier1.mlmodel in Sources */,
+				1BDB2B172C5A6D8100B70994 /* ShootPhotoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
