@@ -33,7 +33,7 @@ struct ShootPhotoView: View {
             .padding(.horizontal)
         }
         .sheet(isPresented: $isShowPhotoLibrary) {
-            ImagePicker(sourceType: .photoLibrary)
+            ImagePicker(sourceType: .camera, selectedImage: $image)
         }
     }
 }
