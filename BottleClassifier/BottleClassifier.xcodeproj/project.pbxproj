@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4CA9572C5B1489007E368B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CA9562C5B1489007E368B /* ImagePicker.swift */; };
 		1B593D2E2C59D1B20080F993 /* ImportPhotoView-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B593D2D2C59D1B20080F993 /* ImportPhotoView-extension.swift */; };
 		1B845C792C586F18001A7627 /* BottleClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B845C782C586F18001A7627 /* BottleClassifierApp.swift */; };
 		1B845C7B2C586F18001A7627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B845C7A2C586F18001A7627 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B4CA9562C5B1489007E368B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		1B593D2D2C59D1B20080F993 /* ImportPhotoView-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportPhotoView-extension.swift"; sourceTree = "<group>"; };
 		1B845C752C586F18001A7627 /* BottleClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottleClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B845C782C586F18001A7627 /* BottleClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleClassifierApp.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				1B845C7A2C586F18001A7627 /* ContentView.swift */,
 				1B593D2D2C59D1B20080F993 /* ImportPhotoView-extension.swift */,
 				1BDB2B162C5A6D8100B70994 /* ShootPhotoView.swift */,
+				1B4CA9562C5B1489007E368B /* ImagePicker.swift */,
 				1B845C7C2C586F19001A7627 /* Assets.xcassets */,
 				1B845C7E2C586F19001A7627 /* Preview Content */,
 			);
@@ -160,6 +163,7 @@
 				1B845C7B2C586F18001A7627 /* ContentView.swift in Sources */,
 				1B845C792C586F18001A7627 /* BottleClassifierApp.swift in Sources */,
 				1BDB2B152C5A69A300B70994 /* ImportPhotoView.swift in Sources */,
+				1B4CA9572C5B1489007E368B /* ImagePicker.swift in Sources */,
 				1B593D2E2C59D1B20080F993 /* ImportPhotoView-extension.swift in Sources */,
 				1B845C882C5882AE001A7627 /* BottleClassifier1.mlmodel in Sources */,
 				1BDB2B172C5A6D8100B70994 /* ShootPhotoView.swift in Sources */,
